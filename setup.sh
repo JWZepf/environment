@@ -5,6 +5,8 @@
 #
 
 apt update -y ; apt upgrade -y
+git submodule init
+git submodule update --recursive --remote
 
 # Vim
 apt install -y vim

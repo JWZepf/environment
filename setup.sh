@@ -23,7 +23,7 @@ mkdir ~/.config/terminator/
 cp -f terminator.cfg ~/.config/terminator/config
 
 # Colorls
-apt install -y ruby ruby-dev
+apt install -y ruby ruby-dev build-essential
 ./nerd-fonts/install.sh Hack
 gem install colorls
 cp colorls_colors.yaml $(dirname $(gem which colorls))/yaml/dark_colors.yaml

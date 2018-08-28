@@ -1,0 +1,39 @@
+# Main Colors
+unrecognized_file: orange
+recognized_file:   deeppink
+dir:               deepskyblue
+
+# Link
+dead_link: red
+link:      cyan
+
+# Access Modes
+write:     orange
+read:      orange
+exec:      orange
+no_access: black
+
+# Age
+day_old:     deepskyblue
+hour_old:    deepskyblue
+no_modifier: deepskyblue
+
+# File Size
+file_large:  deeppink
+file_medium: deeppink
+file_small:  deeppink
+
+# Random
+report: black
+user:   deepskyblue
+tree:   cyan
+empty:  yellow
+error:  red
+normal: darkviolet
+
+# Git
+addition:     orange
+modification: darkviolet
+deletion:     darkred
+untracked:    darkorange
+unchanged:    forestgreen

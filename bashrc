@@ -113,5 +113,5 @@ fi
 
 # Colorls aliases
 alias l='colorls -1A --sd'
-alias ll='colorls -lA --sd --gs'
-alias lt='colorls --tree --gs'
+alias l='ls -lh'
+alias lt='tree -a --dirsfirst'

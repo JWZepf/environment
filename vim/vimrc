@@ -5,7 +5,7 @@ filetype off                  " required
 
 " Colors
 set t_Co=256
-colorscheme hemisu
+colorscheme molokai
 syntax enable " Enable syntax processing
 let g:airline_theme='simple'
 

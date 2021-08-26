@@ -34,8 +34,10 @@
     background_color = "#ffffff"
     cursor_color = "#20c4df"
     cursor_color_fg = False
+    font = Monospace 10
     foreground_color = "#000000"
-    palette = "#2e3436:#f0690d:#f6129d:#24d881:#20c4df:#841fe8:#fce94f:#d3d7cf:#555753:#f0690d:#f6129d:#24d881:#20c4df:#841fe8:#fce94f:#eeeeec"
+    palette = "#2e3436:#f0690d:#f6129d:#24d881:#20c4df:#841fe8:#f66151:#d3d7cf:#555753:#f0690d:#f6129d:#24d881:#20c4df:#841fe8:#f66151:#eeeeec"
+    use_system_font = False
 [layouts]
   [[default]]
     [[[child0]]]

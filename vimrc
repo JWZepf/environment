@@ -20,9 +20,10 @@ nnoremap <C-n> :NERDTree<CR>
 
 " Colors
 set t_Co=256
-colorscheme hemisu " Light Color Scheme
-let g:airline_theme='monochrome'
+" colorscheme hemisu " Light Color Scheme
 " colorscheme molokai " Dark Color Scheme
+colorscheme smarties " Dark Color Scheme
+let g:airline_theme='monochrome'
 
 " Spacing and Tabs
 set tabstop=4 " Number of spaces per tab

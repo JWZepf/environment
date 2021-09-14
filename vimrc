@@ -12,6 +12,7 @@ Plugin 'tpope/vim-fugitive' " Git Plugin
 Plugin 'vim-airline/vim-airline' " Bottom status bar
 Plugin 'vim-airline/vim-airline-themes' " Airline themes
 Plugin 'preservim/nerdtree' " File system explorer
+Plugin 'liuchengxu/space-vim-theme' " Color scheme
 call vundle#end()
 
 " NerdTree
@@ -20,9 +21,11 @@ nnoremap <C-n> :NERDTree<CR>
 
 " Colors
 set t_Co=256
+set background=dark
 " colorscheme hemisu " Light Color Scheme
 " colorscheme molokai " Dark Color Scheme
-colorscheme smarties " Dark Color Scheme
+" colorscheme smarties " Dark Color Scheme
+colorscheme space_vim_theme
 let g:airline_theme='monochrome'
 
 " Spacing and Tabs

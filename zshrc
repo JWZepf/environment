@@ -70,7 +70,7 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,6 +102,13 @@ source $ZSH/oh-my-zsh.sh
 #
 alias vim='nvim'
 alias l='ls -lh'
-alias lt='tree -a --dirsfirst -C'
+alias lt='tree -a --dirsfirst -C -I .git -I venv'
 alias la='ls -lah'
 alias grep='grep --color=auto'
+
+# pyenv
+if command -v pyenv 1 > /dev/null 2>&1; then
+    eval "$(pyenv init -)"
+fi
+
+export VIRTUAL_ENV_DISABLE_PROMPT=

@@ -105,6 +105,7 @@ alias l='ls -lh'
 alias lt='tree -a --dirsfirst -C -I .git -I venv'
 alias la='ls -lah'
 alias grep='grep --color=auto'
+alias rmpy='find . -name "*.pyc" -o -name "__pycache__" -type d -exec rm -rf {} +'
 
 # pyenv
 if command -v pyenv 1 > /dev/null 2>&1; then

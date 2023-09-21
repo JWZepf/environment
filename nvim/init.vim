@@ -1,7 +1,7 @@
 set nocompatible    		" Disable compatibility to old-time vi
 
 " Plugins
-call plug#begin('/Users/jzepf/.config/nvim/plugged')
+call plug#begin('<home>/.config/nvim/plugged')
 Plug 'rakr/vim-one'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'

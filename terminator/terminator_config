@@ -1,10 +1,4 @@
 [global_config]
-  title_transmit_fg_color = "#20c4df"
-  title_transmit_bg_color = "#f3f3f3"
-  title_receive_fg_color = "#f0690d"
-  title_receive_bg_color = "#babdb6"
-  title_inactive_fg_color = "#f6129d"
-  title_inactive_bg_color = "#2e3436"
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
   always_split_with_profile = True
 [keybindings]
@@ -24,20 +18,30 @@
   new_terminator = <Primary><Shift>t
 [profiles]
   [[default]]
-    cursor_color = "#aaaaaa"
   [[Hemisu light]]
     background_color = "#efefef"
-    cursor_color = "#FF0054"
     foreground_color = "#444444"
     palette = "#777777:#ff0055:#739100:#503d15:#538091:#5b345e:#538091:#999999:#999999:#d65e76:#9cc700:#947555:#9db3cd:#a184a4:#85b2aa:#bababa"
   [[jz]]
     background_color = "#ffffff"
-    cursor_color = "#20c4df"
-    cursor_color_fg = False
     font = Monospace 10
     foreground_color = "#000000"
     palette = "#2e3436:#f0690d:#f6129d:#24d881:#20c4df:#841fe8:#f66151:#d3d7cf:#555753:#f0690d:#f6129d:#24d881:#20c4df:#841fe8:#f66151:#eeeeec"
     use_system_font = False
+  [[One dark]]
+    background_color = "#1e2127"
+    background_image = None
+    cursor_fg_color = "#ffffff"
+    cursor_bg_color = "#000000"
+    foreground_color = "#deddda"
+    scrollback_infinite = True
+    palette = "#000000:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#9a9996:#5c6370:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#fffefe"
+    title_transmit_fg_color = "#3fbfbf"
+    title_transmit_bg_color = "#5e5c64"
+    title_receive_fg_color = "#ffa348"
+    title_receive_bg_color = "#5e5c64"
+    title_inactive_fg_color = "#bf3f95"
+    title_inactive_bg_color = "#5e5c64"
 [layouts]
   [[default]]
     [[[child0]]]
@@ -55,6 +59,6 @@
       type = Terminal
       parent = child0
       order = 0
-      profile = jz
+      profile = One dark
       uuid = 81df49bf-2673-4cbb-bfc5-c3243ba85e1f
 [plugins]
